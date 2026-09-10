@@ -1,122 +1,142 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Chocolate Shopping</title>
 </head>
+
 <body>
-    
-    <header> 
-    <h1>Ola mundo</h1>
-    <nav>
-        <a href="#produtos">Produtos</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#contato">Contato</a>
-</nav>
-</header>
-<main>
-    <section>
-        <h2> Bem-vindo a minha loja</h2>
-        <p>Os melhores produtos com os melhores preços</p>
-    </section>
-    <section id="produtos">
-        <h2>Nossos Produtos</h2>
-        <article>
-            <img 
-            width="200" 
-            src="https://static.itdg.com.br/images/1200-675/aa29d53e9ac146ceac698d360223f83d/chocolate-branco.jpg" alt="chocolate-branco">
-            <h3>Chocolate branco</h3>
-            <p>Chocolate de sabor suave e delicado, com textura cremosa e um toque adocicado irresistível. Perfeito para quem aprecia um chocolate mais doce e saboroso em qualquer ocasião. &#x1F60D </p>
-            <span>R$49,90</span>
-            <button>Comprar</button>
-        </article>
-        <article>
-            <img 
-            width="200"
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncfe8ob64AuRR4hi5e_hQHGdqwvipBB9y6RuGUnKCgf0p2-yLK8w9Lgc&s=10" alt="chocolate-preto">
-            <h3>Chocolate preto</h3>
-            <p>Chocolate de sabor tradicional, textura cremosa e delicioso aroma de cacau. Uma opção irresistível para quem busca um chocolate clássico e saboroso para qualquer momento. &#x1F36B </p>
-            <span>R$39,90</span>
-            <button>Comprar</button>
 
-        </article>
-        <article>
-            <img 
-            width="200"
-            src="https://divinechocolateria.com.br/media/wysiwyg/chocolate-amargo.jpg" alt="chocolate-amargo">
-            <h3> Chocolate amargo</h3>
-            <p>Chocolate de sabor intenso e marcante, com alto teor de cacau e um equilíbrio perfeito entre o amargor e a suavidade. Uma excelente opção para quem aprecia um chocolate sofisticado e menos doce. &#x1F36B </p>
-            <span>R$69,90</span>
-            <button>Comprar</button>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <h1 class="navbar-brand">Minha loja</h1>
 
-        </article>
-    </section>
-    <section id="Sobre">
-        <h2> Sobre Nós</h2>
-        <p>Somos uma loja especializada em chocolates finos de primeira linha</p>
-        <h3>Porque comprar comprar com a gente</h3>
-        <ul>
-            <li>entrega rapida</li>
-            <li>Produtos Selecionados</li>
-            <li>Atendimento personalizados</li>
+                <div>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </div>
 
-        </ul>
-        <h3>Horario de funcionamento</h3>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Dia</th>
-                    <th>Horario</th>
-                </tr>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2> Bem-vindo a minha loja</h2>
+            <p>Os melhores produtos com os melhores preços</p>
+        </section>
+        <section id="produtos">
+            <h2>Nossos Produtos</h2>
+            <article>
+                <img width="200"
+                    src="https://static.itdg.com.br/images/1200-675/aa29d53e9ac146ceac698d360223f83d/chocolate-branco.jpg"
+                    alt="chocolate-branco">
+                <h3>Chocolate branco</h3>
+                <p>Chocolate de sabor suave e delicado, com textura cremosa e um toque adocicado irresistível. Perfeito
+                    para quem aprecia um chocolate mais doce e saboroso em qualquer ocasião. &#x1F60D </p>
+                <span>R$49,90</span>
+                <button>Comprar</button>
+            </article>
+            <article>
+                <img width="200"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncfe8ob64AuRR4hi5e_hQHGdqwvipBB9y6RuGUnKCgf0p2-yLK8w9Lgc&s=10"
+                    alt="chocolate-preto">
+                <h3>Chocolate preto</h3>
+                <p>Chocolate de sabor tradicional, textura cremosa e delicioso aroma de cacau. Uma opção irresistível
+                    para quem busca um chocolate clássico e saboroso para qualquer momento. &#x1F36B </p>
+                <span>R$39,90</span>
+                <button>Comprar</button>
 
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Seg a Sex</td>
-                    <td>08h as 19h</td>
-                </tr>
+            </article>
+            <article>
+                <img width="200" src="https://divinechocolateria.com.br/media/wysiwyg/chocolate-amargo.jpg"
+                    alt="chocolate-amargo">
+                <h3> Chocolate amargo</h3>
+                <p>Chocolate de sabor intenso e marcante, com alto teor de cacau e um equilíbrio perfeito entre o
+                    amargor e a suavidade. Uma excelente opção para quem aprecia um chocolate sofisticado e menos doce.
+                    &#x1F36B </p>
+                <span>R$69,90</span>
+                <button>Comprar</button>
 
-            </tbody>
-        </table>
-    </section>
-    <section id="contato">
-        <h2>Fale conosco</h2>
-        <form>
-            <div>
-                <label for="">Nome:</label>
-                <input type="text" id="nome" placeholder="Seu nome">
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="voce@gmail.com">
-            </div>
-            <div>
-                <label for="assunto">Assunto</label>
-                <select id="assunto">
-                <option>Duvida</option>
-                <option>pedido</option>
-                <option>Reclamação</option>
-            </select>
-            </div>
-            <div>
-                <label for="mensagem">Mensagem</label>
-                <textarea
-                id="mensagenm"
-                cols="30" rows="10"
-                placeholder="Digite sua mensagem"
-                ></textarea>
+            </article>
+        </section>
+        <section id="Sobre">
+            <h2> Sobre Nós</h2>
+            <p>Somos uma loja especializada em chocolates finos de primeira linha</p>
+            <h3>Porque comprar comprar com a gente</h3>
+            <ul>
+                <li>entrega rapida</li>
+                <li>Produtos Selecionados</li>
+                <li>Atendimento personalizados</li>
 
-            </div>
-            <button>Enviar</button>
-        </form>
+            </ul>
+            <h3>Horario de funcionamento</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
 
-    </section>
-</main>
-<footer>
-    <address>Rua chocoland, 124 - Montes Claros/MG</address>
-    <p>&copy; 2026 Feito com amor por Kaio e Rafael <3 </p>
-</footer>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Seg a Sex</td>
+                        <td>08h as 19h</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+        <section id="contato">
+            <h2>Fale conosco</h2>
+            <form>
+                <div>
+                    <label for="">Nome:</label>
+                    <input type="text" id="nome" placeholder="Seu nome">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="voce@gmail.com">
+                </div>
+                <div>
+                    <label for="assunto">Assunto</label>
+                    <select id="assunto">
+                        <option>Duvida</option>
+                        <option>pedido</option>
+                        <option>Reclamação</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagenm" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+
+                </div>
+                <button>Enviar</button>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <address>Rua chocoland, 124 - Montes Claros/MG</address>
+        <p>&copy; 2026 Feito com amor por Kaio e Rafael <3 </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
