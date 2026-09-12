@@ -13,15 +13,11 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
             <div class="container">
-                <h1 class="navbar-brand">Minha loja</h1>
+                <h1 class="navbar-brand"> Chocoland</h1>
 
-                <button typer="button" 
-                class="novbar-toggler" 
-                data-bs-toggle="collapse" 
-                data-bs-target="#menu">
-                >
+                <button typer="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -43,46 +39,67 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2> Bem-vindo a minha loja</h2>
-            <p>Os melhores produtos com os melhores preços</p>
+        <section class="bg-secondary text-white text-center py-5">
+            <div class="container">
+                <h2 class="display-5 fw-bold"> Bem-vindo a minha loja</h2>
+                <p class="lead">Os melhores produtos com os melhores preços</p>
+            </div>
         </section>
-        <section id="produtos">
-            <h2>Nossos Produtos</h2>
-            <article>
-                <img width="200"
-                    src="https://static.itdg.com.br/images/1200-675/aa29d53e9ac146ceac698d360223f83d/chocolate-branco.jpg"
-                    alt="chocolate-branco">
-                <h3>Chocolate branco</h3>
-                <p>Chocolate de sabor suave e delicado, com textura cremosa e um toque adocicado irresistível. Perfeito
-                    para quem aprecia um chocolate mais doce e saboroso em qualquer ocasião. &#x1F60D </p>
-                <span>R$49,90</span>
-                <button>Comprar</button>
-            </article>
-            <article>
-                <img width="200"
-                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncfe8ob64AuRR4hi5e_hQHGdqwvipBB9y6RuGUnKCgf0p2-yLK8w9Lgc&s=10"
-                    alt="chocolate-preto">
-                <h3>Chocolate preto</h3>
-                <p>Chocolate de sabor tradicional, textura cremosa e delicioso aroma de cacau. Uma opção irresistível
-                    para quem busca um chocolate clássico e saboroso para qualquer momento. &#x1F36B </p>
-                <span>R$39,90</span>
-                <button>Comprar</button>
+        <section id="produtos" class="container my-5">
+            <h2 class="text-center mb-4">Nossos Produtos</h2>
+            <div class="row g-2">
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="https://static.itdg.com.br/images/1200-675/aa29d53e9ac146ceac698d360223f83d/chocolate-branco.jpg"
+                        class="card-img-top" alt="chocolate branco">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate branco</h5>
+                        <p class="card-text">hocolate de sabor suave e delicado, com textura cremosa e um toque
+                            adocicado
+                            irresistível. Perfeito
+                            para quem aprecia um chocolate mais doce e saboroso em qualquer ocasião. &#x1F60D</p>
+                        <div class="d-flex justify-content-between">
+                            <span class="fw-bold fs-5 text-success pr-5">29,90</span>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
 
-            </article>
-            <article>
-                <img width="200" src="https://divinechocolateria.com.br/media/wysiwyg/chocolate-amargo.jpg"
-                    alt="chocolate-amargo">
-                <h3> Chocolate amargo</h3>
-                <p>Chocolate de sabor intenso e marcante, com alto teor de cacau e um equilíbrio perfeito entre o
-                    amargor e a suavidade. Uma excelente opção para quem aprecia um chocolate sofisticado e menos doce.
-                    &#x1F36B </p>
-                <span>R$69,90</span>
-                <button>Comprar</button>
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQncfe8ob64AuRR4hi5e_hQHGdqwvipBB9y6RuGUnKCgf0p2-yLK8w9Lgc&s=10"
+                        class="card-img-top" alt="chocolate-preto">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate preto</h5>
+                        <p class="card-text">Chocolate de sabor tradicional, textura cremosa e delicioso aroma de cacau.
+                            Uma opção
+                            irresistível.</p>
+                        <div class="d-flex justify-content-between">
+                            <span class="fw-bold fs-5 text-success pr-5">29,90</span>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
 
-            </article>
+                <div class="card col-12 col-md-6 col-lg-4 col-xl-3">
+                    <img src="https://divinechocolateria.com.br/media/wysiwyg/chocolate-amargo.jpg" class="card-img-top"
+                        alt="chocolate-amargo">
+                    <div class="card-body">
+                        <h5 class="card-title">Chocolate amargo</h5>
+                        <p class="card-text">Chocolate de sabor intenso e marcante, com alto teor de cacau e um
+                            equilíbrio perfeito entre o
+                            amargor e a suavidade. Uma excelente opção para quem aprecia um chocolate sofisticado e
+                            menos
+                            doce.
+                            &#x1F36B</p>
+                        <div class="d-flex justify-content-between">
+                            <span class="fw-bold fs-5 text-success pr-5"> 39,90</span>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
-        <section id="Sobre">
+        <section id="sobre">
             <h2> Sobre Nós</h2>
             <p>Somos uma loja especializada em chocolates finos de primeira linha.</p>
             <h3>Porque comprar comprar com a gente?</h3>
@@ -134,10 +151,7 @@
                 </div>
                 <div>
                     <label for="mensagem">Mensagem</label>
-                    <textarea 
-                    id="mensagenm" 
-                    cols="30" 
-                    rows="10" placeholder="Digite sua mensagem">
+                    <textarea id="mensagenm" cols="30" rows="10" placeholder="Digite sua mensagem">
                 </textarea>
 
                 </div>
